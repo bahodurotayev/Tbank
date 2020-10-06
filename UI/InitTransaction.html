@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Last PAGE</title>
+
+</head>
+
+<body>
+  <h3 id="acc_bal">Account Balance : $0000.00</h3>
+  <h4> Account Number:  999 </h4>
+  <div style="margin:10px">
+
+    <input type="radio" id="cash" name="balance" value="Cash Deposit" onclick="handleClick(this)">
+    <label for="cash">Cash Deposit</label>
+
+    <input type="radio" id="check" name="balance" value="Check Deposit" onclick="handleClick(this)">
+    <label for="check">Check Deposit</label>
+
+    <input type="radio" id="trans" name="balance" value="Transaction" onclick="handleClick(this)">
+    <label for="trans">Transaction</label>
+
+    <input type="radio" id="atoatrans" name="balance" value="Accout to Account Transfer" onclick="handleClick(this)">
+    <label for="atoatrans">Accout to Account Transfer</label>
+
+
+
+    <!--         <br>
+      <label for="">Select Transaction Type : </label>
+      <select id="type" onChange="changeEvent()">
+          <option value="cash">Cash Deposit</option>
+          <option value="check">Check Deposit</option>
+          <option value="withdraw">Transaction</option>
+          <option value="transfer">Accout to Account Transfer</option>
+      </select> -->
+
+  </div>
+  <div style="margin:10px">
+    <input type="text" id="amount" placeholder="Deposit Amount">
+    <input type="text" style="display:none" id="acc_num" placeholder="Reciever Account Number">
+    <button id="enter">Proceed</button>
+  </div>
+  <h5 id="message" style="display:none">Confirmation Message</h5>
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Montserrat:wght@600&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 15px 0;
+  font-size: 25px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead tr{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.table-box{
+  width: 50%;
+  position: static;
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.table-row{
+  top: 10px;
+    display: table;
+    width: 30%;
+    margin: 8px auto;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 12px 0;
+    color: #555;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0px rgba(0,0,50,0.3);
+}
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 4px 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+.first-cell{
+    text-align: left;
+    padding-left: 10px;
+}

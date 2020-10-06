@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Montserrat:wght@600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  position: relative;
+  padding: 8px 30px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 25px;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+a:hover{
+  color: #fff;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  transform-origin: left;
+}
+
+a:hover::before {
+  transform: scale(1);
+  transition: transform 0.5s;
+  transform-origin: right;
+}
+a::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background: #000;
+  z-index: -1;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+  transform-origin: right;
+}
+
+a:hover::after {
+  transform: scale(1);
+  transition: transform 0.5s;
+  transform-origin: left;
+}

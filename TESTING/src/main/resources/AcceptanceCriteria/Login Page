@@ -1,0 +1,26 @@
+Description
+As a PO I want the login functionality to be developed and integrated into Banking application
+
+Acceptance Criteria
+
+Page title
+
+Labels for username, password and error message.\
+
+Text-boxes for username and password
+
+Username and password validation:
+
+If both fields are empty : Username  and password are required
+
+If username field is empty: Please enter username
+
+If password field is empty: Please enter password
+
+If login info is incorrect: Invalid credentials
+
+Username field should allow any text to be entered as username
+
+Redirect to Account Summary only when Valid username and valid password are entered
+
+5. Login button that redirects to Account Summary page (after validation)

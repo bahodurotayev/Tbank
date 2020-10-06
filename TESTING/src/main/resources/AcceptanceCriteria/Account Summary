@@ -1,0 +1,12 @@
+Description
+As a PO I want Account Summary page to be developed and integrated into Banking app
+
+Acceptance Criteria
+
+1. Account number and Customer information must be displayed
+
+2. last 6 months' transactions must be displayed
+
+3. Account balance must be displayed
+
+4. Initiate transaction functionality must be added (button)
